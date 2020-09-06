@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <form action ="backend.php">
+        Name:<input type ="text" name="my Name">
+        <div>
+        DOB:<input type="date" name="" id="">
+        </div>
+        <div>
+            Email:<input type="email" email="my email">
+        </div>
+        <div>
+            <br>
+            Gender: Male<input type="radio" name="my gender" >Female<input type="radio" name="my gender"> Others<input type="radio" name="my gender">
+            </br>
+
+       </div>
+       <div>
+           Write about your skills:<textarea name="my Text" cols="30" rows="10">
+
+           </textarea>
+       </div>
+       <div>
+           <input type ="submit" value="Submit Now">
+       </div>
+        </form>
+
+    </form>    
+</body>
+</html>
